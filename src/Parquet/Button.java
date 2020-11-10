@@ -50,6 +50,7 @@ public class Button extends Sketch {
     }
 
     public void mouseReleased(Supplier callback) {
+        // Java 8 Only
         if(mouseOver()) {
             callback.get();
         }
